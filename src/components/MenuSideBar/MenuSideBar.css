@@ -1,0 +1,23 @@
+.container-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 150px;
+  height: 100vh;
+  color: #7e7d7d;
+  background-color: #fff;
+}
+
+.container-sidebar ul {
+  line-height: 2rem;
+}
+
+.container-sidebar li {
+  list-style: none;
+}
+
+.container-sidebar a {
+  text-decoration: none;
+  color: #7e7d7d;
+}
