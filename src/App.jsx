@@ -1,10 +1,14 @@
 import "./App.css";
-import Login from "./components/Login";
+import Header from "./components/Header";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap'
+import MenuSideBar from "./components/MenuSideBar";
 
 function App() {
   return (
     <>
-      <Login/>
+      <Header />
+      <MenuSideBar />
     </>
   );
 }
