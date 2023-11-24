@@ -11,10 +11,12 @@
 
 .container-sidebar ul {
   line-height: 2rem;
+  padding: 0;
 }
 
 .container-sidebar li {
   list-style: none;
+  padding-bottom: 0.6rem;
 }
 
 .container-sidebar a {
