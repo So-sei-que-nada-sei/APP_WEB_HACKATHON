@@ -8,7 +8,6 @@ import { FaBuilding } from "react-icons/fa";
 export default function MenuSideBar() {
   return (
     <div className='container-sidebar'>
-      <p>Menu</p>
       <ul>
         <li><a href="#"><AiOutlineDashboard /> Dashboard</a></li>
         <li><a href="#"><FaRegCalendarAlt /> Eventos</a></li>

@@ -1,6 +1,5 @@
 .card-info {
   border-radius: 0.5rem;
-  /* background-color: #bb89e9; */
   color: #fff;
   width: 300px;
   display: flex;
@@ -15,4 +14,7 @@
 .info .quantidade {
   font-size: 30px;
   font-weight: 600;
+}
+.icon{
+  text-align: right ;
 }
