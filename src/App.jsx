@@ -1,19 +1,25 @@
 import "./App.css";
-import Header from "./components/Header";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap'
-import MenuSideBar from "./components/MenuSideBar";
-import SectionInfo from "./components/SectionInfo";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import PageDefault from "./pages/PageDefault";
+import Home from "./pages/Home";
+import Salas from "./pages/Salas";
+import Eventos from "./pages/Eventos";
+import Usuarios from "./pages/Usuarios";
 
 function App() {
   return (
-    <>
-      <Header />
-      <div style={{display: 'flex', width: '100%'}}>
-        <MenuSideBar />
-        <SectionInfo />
-      </div>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<PageDefault />}>
+          <Route index element={<Home />}/>
+          <Route path="eventos" element={<Eventos />}/>
+          <Route path="usuarios" element={<Usuarios />}/>
+          <Route path="salas" element={<Salas />}/>
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
