@@ -1,7 +1,8 @@
-import "./Salas.css"
+import SectionSalas from "../../components/SectionSalas";
+
 
 export default function Salas() {
   return (
-    <h1>Salas</h1>
+    <SectionSalas/>
   )
 }
