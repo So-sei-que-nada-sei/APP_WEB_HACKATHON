@@ -17,7 +17,7 @@ export default function SectionSalas() {
             <th scope="col">Responsável</th>
             <th scope="col">Nome da Sala</th>
             <th scope="col">Assunto</th>
-            <th scope="col">Capacidade Maxima de Pessoas</th>
+            <th scope="col">Capacidade Máxima de Pessoas</th>
             <th scope="col">Data de Criação</th>
             <th scope="col">Editar</th>
             <th scope="col">Detalhar</th>

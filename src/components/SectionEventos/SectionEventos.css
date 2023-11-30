@@ -9,7 +9,11 @@ aside {
 
   /* Verificar uma forma de alinhar as imagens*/
  
-  aside td:not() {
+  aside th:not(:first-child) {
+    text-align: center;
+  }
+  
+  aside td:not(:first-child) {
     text-align: center;
   }
   
