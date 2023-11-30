@@ -1,7 +1,8 @@
-import "./Eventos.css"
+import SectionEventos from "../../components/SectionEventos";
+
 
 export default function Eventos() {
   return (
-    <h1>Eventos</h1>
+    <SectionEventos/>
   )
 }
