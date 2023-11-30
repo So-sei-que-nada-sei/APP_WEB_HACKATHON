@@ -6,8 +6,6 @@ aside {
     width: 100%;
     height: 50%;
   }
-
-  /* Verificar uma forma de alinhar as imagens*/
  
   aside th:not(:first-child) {
     text-align: center;
