@@ -1,11 +1,11 @@
 import { FaEdit, FaRegFileAlt, FaTrashAlt } from "react-icons/fa";
-import "./SectionSalas.css";
+import "./SectionEventos.css";
 
-export default function SectionSalas() {
+export default function SectionEventos() {
   return (
     <aside>
       <div className="d-flex justify-content-between">
-        <h1>Salas</h1>
+        <h1>Eventos</h1>
         <button type="button" className="btn btn-primary w-10">
           Incluir
         </button>
@@ -15,10 +15,10 @@ export default function SectionSalas() {
         <thead>
           <tr>
             <th scope="col">Responsável</th>
-            <th scope="col">Nome da Sala</th>
-            <th scope="col">Assunto</th>
-            <th scope="col">Capacidade Máxima de Pessoas</th>
-            <th scope="col">Data de Criação</th>
+            <th scope="col">Nome do Evento</th>
+            <th scope="col">Sala</th>
+            <th scope="col">Data inicial / Final</th>
+            <th scope="col">Hórario</th>
             <th scope="col">Editar</th>
             <th scope="col">Detalhar</th>
             <th scope="col">Excluir</th>
@@ -35,10 +35,11 @@ export default function SectionSalas() {
               />
               <span>Ruan Gomes</span>
             </td>
-            <td>Sala B</td>
             <td>Fundamentos React</td>
-            <td>50 pessoas</td>
-            <td>23/01/2024</td>
+            <td>Sala B</td>
+            {/*Verificar a possibilidade de colocar um horáio diferente para cada data caso necessário*/}
+            <td>23/01/2024 a 24/01/2024</td>
+            <td>19h ás 21h</td>
             <td>
               <FaEdit size={20} color="black" />
             </td>
@@ -59,10 +60,10 @@ export default function SectionSalas() {
               />
               <span>Lucivando Sousa </span>
             </td>
-            <td>Sala D</td>
             <td>Git e Github</td>
-            <td>50 pessoas</td>
-            <td>23/03/2024</td>
+            <td>Sala D</td>
+            <td>23/03/2024 a 25/03/2024</td>
+            <td>19h ás 21h</td>
             <td>
               <FaEdit size={20} color="black" />
             </td>
@@ -83,10 +84,10 @@ export default function SectionSalas() {
               />
               <span>Ademir Patricio</span>
             </td>
-            <td>Sala F</td>
             <td>HTML e CSS</td>
-            <td>50 pessoas</td>
-            <td>07/05/2024</td>
+            <td>Sala F</td>
+            <td>07/05/2024 a 09/05/2024</td>
+            <td>19h ás 21h</td>
             <td>
               <FaEdit size={20} color="black" />
             </td>
@@ -107,10 +108,10 @@ export default function SectionSalas() {
               />
               <span>Suellen Magalhães</span>
             </td>
-            <td>Sala J</td>
             <td>Logica de Programação com JavaScritp</td>
-            <td>50 pessoas</td>
-            <td>03/01/2024</td>
+            <td>Sala J</td>
+            <td>03/01/2024 a 04/01/2024</td>
+            <td>118:30h ás 20:20h</td>
             <td>
               <FaEdit size={20} color="black" />
             </td>
@@ -131,10 +132,10 @@ export default function SectionSalas() {
               />
               <span>Éden Saulo</span>
             </td>
-            <td>Sala k</td>
             <td>Orientação Objeto com Java</td>
-            <td>50 pessoas</td>
-            <td>10/06/2024</td>
+            <td>Sala k</td>
+            <td>10/06/2024 a 12/06/2024</td>
+            <td>21h ás 22h</td>
             <td>
               <FaEdit size={20} color="black" />
             </td>
